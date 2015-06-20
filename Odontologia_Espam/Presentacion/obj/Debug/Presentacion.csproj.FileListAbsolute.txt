@@ -1,0 +1,144 @@
+D:\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.exe
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.pdb
+D:\Odontologia_Espam\Presentacion\bin\Debug\ayuda.chm
+D:\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe
+D:\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.pdb
+D:\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.dll
+D:\Odontologia_Espam\Presentacion\bin\Debug\Negocio.dll
+D:\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.pdb
+D:\Odontologia_Espam\Presentacion\bin\Debug\Negocio.pdb
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Informar_Error.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Acerca_de_app.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Administra_Odontologo.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Laboratorio_Paciente.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Master.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_News_Ordenes_Examenes.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.For_Login.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Reportes_Pacientes.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Gestiona_Pacientes.resources
+D:\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_administra_pacientes.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\ayuda.chm
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.dll
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\StickyNotes.exe
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.pdb
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\bin\Debug\StickyNotes.pdb
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_administra_pacientes.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Informar_Error.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Acerca_de_app.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Administra_Odontologo.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Laboratorio_Paciente.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Master.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_News_Ordenes_Examenes.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.For_Login.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Gestiona_Pacientes.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Reportes_Pacientes.resources
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\ayuda.chm
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Crea_Preguntas.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Administra_Historias.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Forma_Historia_Clinica.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_administra_pacientes.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Informar_Error.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Acerca_de_app.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Administra_Odontologo.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Laboratorio_Paciente.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Master.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_News_Ordenes_Examenes.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Test.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.For_Login.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Gestiona_Pacientes.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Reportes_Pacientes.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Odontograma.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\ayuda.chm
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.dll
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.pdb
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Forma_Historia_Clinica.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Crea_Preguntas.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Administra_Historias.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_administra_pacientes.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Informar_Error.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Acerca_de_app.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Administra_Odontologo.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Laboratorio_Paciente.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Master.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_News_Ordenes_Examenes.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Odontograma.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Test.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.For_Login.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Gestiona_Pacientes.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Reportes_Pacientes.resources
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\ayuda.chm
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe.manifest
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.application
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Negocio.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\OdontogramaLib.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Reportes.exe
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\System.Windows.Forms.Calendar.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Acceso_Datos.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\OdontogramaLib.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\Reportes.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\bin\Debug\System.Windows.Forms.Calendar.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_administra_pacientes.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Crea_Preguntas.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Informar_Error.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Acerca_de_app.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Administra_Odontologo.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Laboratorio_Paciente.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Master.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_News_Ordenes_Examenes.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_PlandeTrabajo.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Form_Test.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.frmDetallesConsulta.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.frmDiente.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.frmOdontograma.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.frm_CrudLogin.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.frm_PersonaDetalles.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.For_Login.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.RecursosDeFotos.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.Cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.exe.manifest
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.application
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Presentacion\obj\Debug\Presentacion.pdb

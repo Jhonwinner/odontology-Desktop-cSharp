@@ -1,0 +1,29 @@
+D:\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll.config
+D:\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll
+D:\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.pdb
+D:\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.csprojResolveAssemblyReference.cache
+D:\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.dll
+D:\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.pdb
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.csprojResolveAssemblyReference.cache
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.dll
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.pdb
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll.config
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll.config
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.csprojResolveAssemblyReference.cache
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll.config
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.pdb
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.csprojResolveAssemblyReference.cache
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.dll
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll.config
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Acceso_Datos\bin\Debug\Acceso_Datos.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Acceso_Datos\obj\Debug\Acceso_Datos.pdb

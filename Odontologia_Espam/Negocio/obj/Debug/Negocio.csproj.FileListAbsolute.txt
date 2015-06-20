@@ -1,0 +1,35 @@
+D:\Odontologia_Espam\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+D:\Odontologia_Espam\Negocio\obj\Debug\Negocio.dll
+D:\Odontologia_Espam\Negocio\obj\Debug\Negocio.pdb
+D:\Odontologia_Espam\Negocio\bin\Debug\Negocio.dll
+D:\Odontologia_Espam\Negocio\bin\Debug\Negocio.pdb
+D:\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.dll
+D:\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.pdb
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Negocio\bin\Debug\Negocio.dll
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.dll
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.pdb
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Negocio\obj\Debug\Negocio.dll
+C:\Users\Propietario\Desktop\Project Desktop\Odontologia_Espam\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\bin\Debug\Negocio.dll
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.dll
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.pdb
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\obj\Debug\Negocio.dll
+C:\Users\Ups Vip\Documents\Visual Studio 2012\Projects\Odontologia_Espam\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Negocio\bin\Debug\Negocio.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Negocio\bin\Debug\Acceso_Datos.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Negocio\obj\Debug\Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Negocio\obj\Debug\Negocio.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\Negocio\obj\Debug\Negocio.pdb

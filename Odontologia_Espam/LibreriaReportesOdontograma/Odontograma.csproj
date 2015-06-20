@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD1614DC-4F71-4F63-ABBF-50ACD02F4765}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OdontogramaLib</RootNamespace>
+    <AssemblyName>OdontogramaLib</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConjuntoDeDientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConjuntoDeDientes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DientesTotales.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DientesTotales.Designer.cs">
+      <DependentUpon>DientesTotales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImagenUnidadDental.Designer.cs">
+      <DependentUpon>ImagenUnidadDental.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnidadDental.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnidadDental.Designer.cs">
+      <DependentUpon>UnidadDental.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConjuntoDeDientes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConjuntoDeDientes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DientesTotales.resx">
+      <DependentUpon>DientesTotales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImagenUnidadDental.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ImagenUnidadDental.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnidadDental.resx">
+      <DependentUpon>UnidadDental.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Inferior2_nivel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\LateralDerecho_nivel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\LateralDerecho_nivel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\LateralIzquierdo_nivel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\LateralIzquierdo_nivel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Superior1_nivel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Superior1_nivel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Superior2_nivel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Superior2_nivel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Central_nivel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Central_nivel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Inferior1_nivel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Inferior1_nivel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Inferior2_nivel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Central_nivel21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Inferior1_nivel21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Inferior2_nivel21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Inferior1_nivel22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\LateralDerecho_nivel21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\LateralIzquierdo_nivel21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Superior1_nivel21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Superior2_nivel21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_Odontograma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado12333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado13333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado21333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado22333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado23333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado31333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado32333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33213.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33312.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33313.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado33333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estado11133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Central_nivel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Central_nivel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Central_nivel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inferior1_nivel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inferior1_nivel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inferior1_nivel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LateralDerecho_nivel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LateralDerecho_nivel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LateralDerecho_nivel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LateralIzquierdo_nivel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LateralIzquierdo_nivel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LateralIzquierdo_nivel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superior2_nivel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superior2_nivel2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superior2_nivel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superior1_nivel3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superior1_nivel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superior1_nivel2.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

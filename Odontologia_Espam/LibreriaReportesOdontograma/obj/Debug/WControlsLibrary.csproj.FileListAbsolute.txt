@@ -1,0 +1,22 @@
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\bin\Debug\WDentalControlsLibrary.dll
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\bin\Debug\WDentalControlsLibrary.pdb
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\obj\Debug\WDentalControlsLibrary.ConjuntoDeDientes.resources
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\obj\Debug\WDentalControlsLibrary.DientesTotales.resources
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\obj\Debug\WDentalControlsLibrary.ImagenUnidadDental.resources
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\obj\Debug\WDentalControlsLibrary.UnidadDental.resources
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\obj\Debug\WControlsLibrary.csproj.GenerateResource.Cache
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\obj\Debug\WDentalControlsLibrary.dll
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\obj\Debug\WDentalControlsLibrary.pdb
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\obj\Debug\WDentalControlsLibrary.PiezaBucal.resources
+E:\Desarrollo Odontologia\Odontograma\WControlsLibrary\obj\Debug\WControlsLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\bin\Debug\WDentalControlsLibrary.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\bin\Debug\WDentalControlsLibrary.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\WControlsLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\WDentalControlsLibrary.ConjuntoDeDientes.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\WDentalControlsLibrary.DientesTotales.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\WDentalControlsLibrary.ImagenUnidadDental.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\WDentalControlsLibrary.PiezaBucal.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\WDentalControlsLibrary.UnidadDental.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\WControlsLibrary.csproj.GenerateResource.Cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\WDentalControlsLibrary.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\WDentalControlsLibrary.pdb

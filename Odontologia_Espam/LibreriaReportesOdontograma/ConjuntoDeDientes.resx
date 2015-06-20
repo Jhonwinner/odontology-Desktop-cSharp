@@ -1,0 +1,853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Estado11111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11112.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11121.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11131.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11132.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11133.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11221.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11222.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11223.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11231.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11233.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11311.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11312.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11313.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11321.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11322.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11323.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11331.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11332.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado11333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado11333.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12112.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12121.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12131.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12132.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12133.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12221.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12222.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12223.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12231.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12233.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12311.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12312.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12313.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12321.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12322.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12323.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12331.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12332.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado12333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado12333.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13112.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13121.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13131.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13132.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13133.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13221.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13222.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13223.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13231.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13233.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13311.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13312.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13313.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13321.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13322.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13323.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13331.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13332.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado13333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado13333.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21112.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21121.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21131.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21132.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21133.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21221.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21222.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21223.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21231.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21233.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21311.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21312.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21313.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21321.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21322.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21323.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21331.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21332.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado21333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado21333.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22112.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22121.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22131.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22132.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22133.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22221.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22222.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22223.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22231.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22233.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22311.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22312.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22313.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22321.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22322.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22323.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22331.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22332.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado22333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado22333.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23112.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23121.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23131.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23132.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23133.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23221.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23222.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23223.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23231.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23233.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23311.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23312.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23313.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23321.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23322.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23323.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23331.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23332.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado23333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado23333.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31112.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31121.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31131.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31132.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31133.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31221.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31222.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31223.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31231.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31233.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31311.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31312.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31313.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31321.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31322.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31323.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31331.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31332.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado31333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado31333.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32112.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32121.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32131.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32132.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32133.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32221.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32222.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32223.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32231.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32233.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32311.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32312.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32313.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32321.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32322.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32323.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32331.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32332.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado32333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado32333.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33112" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33112.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33113" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33113.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33121.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33122.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33123.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33131.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33132" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33132.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33133" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33133.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33212.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33213" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33213.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33221.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33222" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33222.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33223.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33231.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33232" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33232.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33233" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33233.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33311.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33312.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33313" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33313.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33321.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33322" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33322.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33323" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33323.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33331" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33331.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33332" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33332.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Estado33333" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Estado33333.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="img_Odontograma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\img_Odontograma.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

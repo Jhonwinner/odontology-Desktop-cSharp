@@ -1,0 +1,9 @@
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\bin\Debug\OdontogramaLib.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\bin\Debug\OdontogramaLib.pdb
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\OdontogramaLib.ConjuntoDeDientes.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\OdontogramaLib.DientesTotales.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\OdontogramaLib.ImagenUnidadDental.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\OdontogramaLib.UnidadDental.resources
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\Odontograma.csproj.GenerateResource.Cache
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\OdontogramaLib.dll
+C:\Users\Marlon\Documents\Visual Studio 2012\Projects\Solucion\Odontologia_Espam\LibreriaReportesOdontograma\obj\Debug\OdontogramaLib.pdb

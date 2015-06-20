@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B91F419D-D18E-4D27-A455-2467F2ABFF66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reportes</RootNamespace>
+    <AssemblyName>Reportes</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmRptHistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptHistoriaClinica.Designer.cs">
+      <DependentUpon>frmRptHistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Reportes.Designer.cs">
+      <DependentUpon>frm_Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Odontologia_EspamDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Odontologia_EspamDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RptActividadesPorSemanas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RptActividadesPorSemanas.Designer.cs">
+      <DependentUpon>RptActividadesPorSemanas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmRptHistoriaClinica.resx">
+      <DependentUpon>frmRptHistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Reportes.resx">
+      <DependentUpon>frm_Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="rpt_Citas.rdlc" />
+    <EmbeddedResource Include="RptActividadesPorSemanas.resx">
+      <DependentUpon>RptActividadesPorSemanas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_Sesiones.rdlc" />
+    <None Include="Odontologia_EspamDataSet.xsc">
+      <DependentUpon>Odontologia_EspamDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Odontologia_EspamDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Odontologia_EspamDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Odontologia_EspamDataSet.xss">
+      <DependentUpon>Odontologia_EspamDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+COD_USUARIO_LOGINDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+COD_USUARIO_LOGINRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+COD_USUARIO_LOGINRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+COD_USUARIO_LOGINRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTAR_PAIS_PROVDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTAR_PAIS_PROVRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTAR_PAIS_PROVRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTAR_PAIS_PROVRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_CANTONDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_CANTONRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_CANTONRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_CANTONRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_PAISDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_PAISRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_PAISRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_PAISRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_PROVINCIADataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_PROVINCIARow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_PROVINCIARowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+CONSULTA_PROVINCIARowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PaConsultaPreguntasDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PaConsultaPreguntasRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PaConsultaPreguntasRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PaConsultaPreguntasRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PaInsertaPreguntaDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PaInsertaPreguntaRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PaInsertaPreguntaRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PaInsertaPreguntaRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_30_Top_Ordenes_ExamenDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_30_Top_Ordenes_ExamenRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_30_Top_Ordenes_ExamenRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_30_Top_Ordenes_ExamenRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_ConsultaDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_ConsultaRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_ConsultaRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_ConsultaRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Historia_ClinicaDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Historia_ClinicaRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Historia_ClinicaRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Historia_ClinicaRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_H_C_Ordenes_ExamenDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_H_C_Ordenes_ExamenRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_H_C_Ordenes_ExamenRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_H_C_Ordenes_ExamenRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Ordenes_Examen_CI_o_HiDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Ordenes_Examen_CI_o_HiRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Ordenes_Examen_CI_o_HiRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Ordenes_Examen_CI_o_HiRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_PersonaDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_PersonaRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_PersonaRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_PersonaRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Persona_TOp_15DataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Persona_TOp_15Row.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Persona_TOp_15RowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Persona_TOp_15RowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Test_cabeceraDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Test_cabeceraRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Test_cabeceraRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Test_cabeceraRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Test_Detalle_TotalDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Test_Detalle_TotalRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Test_Detalle_TotalRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_Test_Detalle_TotalRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_UsuarioDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_UsuarioRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_UsuarioRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Consulta_UsuarioRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_Historia_ClinicaDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_Historia_ClinicaRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_Historia_ClinicaRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_Historia_ClinicaRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_PersonaDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_PersonaRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_PersonaRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_PersonaRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_Test_cabDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_Test_cabRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_Test_cabRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PA_Insert_Test_cabRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PROVINCIA_CANTONDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PROVINCIA_CANTONRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PROVINCIA_CANTONRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+PROVINCIA_CANTONRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpBuscarAlumnosDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpBuscarAlumnosRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpBuscarAlumnosRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpBuscarAlumnosRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpBuscarAlumnosxIDDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpBuscarAlumnosxIDRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpBuscarAlumnosxIDRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpBuscarAlumnosxIDRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConsultaPersonaIDDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConsultaPersonaIDRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConsultaPersonaIDRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConsultaPersonaIDRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+spConsultarConsultaDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+spConsultarConsultaRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+spConsultarConsultaRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+spConsultarConsultaRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+spConsultarEnetreFechasLasCitasDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+spConsultarEnetreFechasLasCitasRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+spConsultarEnetreFechasLasCitasRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+spConsultarEnetreFechasLasCitasRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConsultarOdontogramaDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConsultarOdontogramaRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConsultarOdontogramaRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConsultarOdontogramaRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDientePorIdDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDientePorIdRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDientePorIdRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDientePorIdRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosTotalesDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosTotalesRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosTotalesRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosTotalesRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosXsuIDDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosXsuIDRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosXsuIDRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteProcedimientosXsuIDRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpConultarOdontogramaDienteRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpInsertarOdontogramaDataTable.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpInsertarOdontogramaRow.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpInsertarOdontogramaRowChangeEvent.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia+SpInsertarOdontogramaRowChangeEventHandler.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.Odontologia.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.COD_USUARIO_LOGINTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.CONSULTAR_PAIS_PROVTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.CONSULTA_CANTONTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.CONSULTA_PAISTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.CONSULTA_PROVINCIATableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PaConsultaPreguntasTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PaInsertaPreguntaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_30_Top_Ordenes_ExamenTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_ConsultaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_Historia_ClinicaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_H_C_Ordenes_ExamenTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_Ordenes_Examen_CI_o_HiTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_PersonaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_Persona_TOp_15TableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_Test_cabeceraTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_Test_Detalle_TotalTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Consulta_UsuarioTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Insert_Historia_ClinicaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Insert_PersonaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PA_Insert_Test_cabTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.PROVINCIA_CANTONTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.QueriesTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpBuscarAlumnosTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpBuscarAlumnosxIDTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpConsultaPersonaIDTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.spConsultarConsultaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.spConsultarEnetreFechasLasCitasTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpConsultarOdontogramaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpConultarOdontogramaDientePorIdTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpConultarOdontogramaDienteProcedimientosTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpConultarOdontogramaDienteProcedimientosTotalesTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpConultarOdontogramaDienteProcedimientosXsuIDTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpConultarOdontogramaDienteTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.SpInsertarOdontogramaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\Acceso_Datos.OdontologiaTableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchhome %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Acceso_Datos\Acceso_Datos.csproj">
+      <Project>{d4877922-69f9-4f52-9e06-ab00c95a2a0c}</Project>
+      <Name>Acceso_Datos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
